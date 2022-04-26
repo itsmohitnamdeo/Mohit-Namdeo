@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mohit Namdeo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style media="screen">
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background-color: #080710;
+background-image : url("https://i.gifer.com/J4o.gif");
+background-size: cover;
+}
+
+ 
+.wrapper,
+.wrapper .img-area,
+.social-icons a,
+.social-icons-1 a,
+.social-icons-2 a,
+.social-icons-3 a,
+.buttons button{
+background-color: rgba(255,255,255,0.13);
+border-radius: 10px;
+backdrop-filter: blur(3px);
+border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
+}
+
+.wrapper{
+position: relative;
+width: 350px;
+padding: 30px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}                                      
+
+.wrapper .img-area{                    
+height: 150px;
+width: 150px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.img-area .inner-area{
+height: calc(100% - 25px);
+width: calc(100% - 25px);
+border-radius: 50%;
+}
+.inner-area img{
+height: 100%;
+width: 100%;
+border-radius: 50%;
+object-fit: cover;
+}
+.wrapper .name{                        
+font-size: 23px;
+font-weight: 500;
+color: white;
+margin: 10px 0 5px 0;
+}
+.wrapper .about{
+color: #d0d1d7;
+font-weight: 400;
+font-size: 16px;
+}
+.wrapper .social-icons{
+margin: 15px 0 25px 0;
+}
+.wrapper .social-icons-1{
+margin: 15px 0 25px 0;
+}
+.wrapper .social-icons-2{
+margin: 15px 0 25px 0;
+}
+.wrapper .social-icons-3{
+margin: 15px 0 25px 0;
+}
+.social-icons a{
+position: relative;
+height: 40px;
+width: 40px;
+margin: 0 5px;
+display: inline-flex;
+text-decoration: none;
+border-radius: 50%;
+}   
+.social-icons-1 a{
+position: relative;
+height: 40px;
+width: 40px;
+margin: 0 5px;
+display: inline-flex;
+text-decoration: none;
+border-radius: 50%;
+}
+.social-icons-2 a{
+position: relative;
+height: 40px;
+width: 40px;
+margin: 0 5px;
+display: inline-flex;
+text-decoration: none;
+border-radius: 50%;
+}  
+.social-icons-3 a{
+position: relative;
+height: 40px;
+width: 40px;
+margin: 0 5px;
+display: inline-flex;
+text-decoration: none;
+border-radius: 50%;
+}                                  
+.social-icons a:hover::before,
+.wrapper .icon:hover::before,
+.buttons button:hover:before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+border-radius: 50%;
+background: #ecf0f3;
+box-shadow: inset -3px -3px 7px #ffffff,
+          inset 3px 3px 5px #ceced1;
+}
+.social-icons-1 a:hover::before,
+.wrapper .icon:hover::before,
+.buttons button:hover:before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+border-radius: 50%;
+background: #ecf0f3;
+box-shadow: inset -3px -3px 7px #ffffff,
+          inset 3px 3px 5px #ceced1;
+}
+.social-icons-2 a:hover::before,
+.wrapper .icon:hover::before,
+.buttons button:hover:before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+border-radius: 50%;
+background: #ecf0f3;
+box-shadow: inset -3px -3px 7px #ffffff,
+          inset 3px 3px 5px #ceced1;
+}
+.social-icons-3 a:hover::before,
+.wrapper .icon:hover::before,
+.buttons button:hover:before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+border-radius: 50%;
+background: #ecf0f3;
+box-shadow: inset -3px -3px 7px #ffffff,
+          inset 3px 3px 5px #ceced1;
+}
+.buttons button:hover:before{
+z-index: -1;
+border-radius: 5px;
+}
+.buttons button:hover{
+  color: black;
+}                                      
+.social-icons a i{
+position: relative;
+z-index: 3;
+text-align: center;
+width: 100%;
+height: 100%;
+font-size: 20px;
+line-height: 35px;
+}
+.social-icons a:nth-last-child(1) i{
+color: #00d9ff;
+}
+.social-icons a:nth-last-child(2) i{
+color: #59cbff;
+}
+.social-icons a:nth-last-child(3) i{
+color: #ff569c;
+}
+.social-icons a:nth-last-child(4) i{
+color: #ffffff;
+}
+
+.social-icons-1 a i{
+position: relative;
+z-index: 3;
+text-align: center;
+width: 100%;
+height: 100%;
+font-size: 20px;
+line-height: 35px;
+}
+.social-icons-1 a:nth-last-child(1) i{
+color: #fffd73;
+}
+.social-icons-1 a:nth-last-child(2) i{
+color: #00d9ff;
+}
+.social-icons-1 a:nth-last-child(3) i{
+color: #ff3907;
+}
+.social-icons-1 a:nth-last-child(4) i{
+color: #000000;
+}
+.social-icons-2 a i{
+position: relative;
+z-index: 3;
+text-align: center;
+width: 100%;
+height: 100%;
+font-size: 20px;
+line-height: 35px;
+}
+.social-icons-2 a:nth-last-child(1) i{
+color: #24baff;
+}
+.social-icons-2 a:nth-last-child(2) i{
+color: #2bfd78;
+}
+.social-icons-2 a:nth-last-child(3) i{
+color: #ffffff;
+}
+.social-icons-2 a:nth-last-child(4) i{
+color: #3cb8ff;
+}
+.social-icons-3 a i{
+position: relative;
+z-index: 3;
+text-align: center;
+width: 100%;
+height: 100%;
+font-size: 20px;
+line-height: 35px;
+}
+.social-icons-3 a:nth-last-child(1) i{
+color: #000000;
+}
+.social-icons-3 a:nth-last-child(2) i{
+color: #fff9a2;
+}
+.social-icons-3 a:nth-last-child(3) i{
+color: #ff2222;
+}
+.social-icons-3 a:nth-last-child(4) i{
+color: #80fbff;
+}
+
+.wrapper .buttons{
+display: flex;
+width: 100%;
+justify-content: space-between;
+}
+.buttons button{
+position: relative;
+width: 100%;
+border: none;
+outline: none;
+padding: 12px 0;
+color: #d0d1d6;                                                              
+font-size: 17px;
+font-weight: 400;
+border-radius: 5px;
+cursor: pointer;
+z-index: 4;
+}
+.buttons button:first-child{
+margin-right: 10px;
+}
+.buttons button:last-child{
+margin-left: 10px;
+}
+
+</style>
+</head>
+<body>
+
+
+
+   <div class="wrapper">
+     <div class="img-area">
+       <div class="inner-area">
+         <img src="Mohit-Namdeo.png" alt="">
+       </div>
+     </div>
+
+     <div class="name">Mohit Namdeo</div>
+     <div class="about">
+       B.Tech CS Engineer
+  </div>
+    <div class="social-icons">
+       <a href="https://www.facebook.com/mohit.namdeo.198/" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+       <a href="https://www.instagram.com/mohit_namdeo_379/" class="instagram"><i class="fab fa-instagram"></i></a>
+       <a href="https://www.linkedin.com/in/mohit-namdeo/" class="linkedin"><i class="fab fa-linkedin"></i></a> 
+       <a href="https://itsmohitnamdeo.github.io/" class="user"><i class="fas fa-user-circle"></i></a>
+    </div>
+    <div class="social-icons-1">
+      <a href="https://github.com/itsmohitnamdeo/" class="github"><i class="fab fa-github"></i></a>
+      <a href="https://www.quora.com/profile/Mohit-Namdeo-13" class="quora"><i class="fab fa-quora"></i></a> 
+      <a href="https://twitter.com/NamdeoMohit198/" class="twitter"><i class="fab fa fa-twitter"></i></a>
+      <a href="https://www.snapchat.com/add/mohit_namdeo198" class="snapchat"><i class="fab fa-snapchat fa-4x"></i></a>
+    </div>
+    <div class="social-icons-2">
+       <a href="tel:+919131552292" class="phone"><i class="fa fa-phone"></i></a>
+       <a href="mailto:namdeomohit198@gmail.com" class="envelope"><i class="fa fa-envelope"></i></a>
+       <a href="http://wa.me/919131552292" class="whatsapp"><i class="fab fa fa-whatsapp"></i></a>
+       <a href="https://t.me/Mohit_Namdeo" class="telegram"><i class="fab fa fa-telegram"></i></a> 
+    </div>
+    <div class="social-icons-3">
+      <a href="https://itsmohitnamdeo.github.io/Footer-Design/" class="envelope"><i class="fa fa-address-card"></i></a>
+      <a href="https://www.youtube.com/c/MohitNamdeo" class="youtube"><i class="fab fa-youtube"></i></a> 
+      <a href="https://www.qwiklabs.com/public_profiles/a4a43364-24df-43ea-8de2-f59882632019" class="google"><i class="fab fa-google"></i></a>
+      <a href="https://docs.microsoft.com/en-us/users/mohitnamdeo-1832/" class="microsoft"><i class="fab fa fa-microsoft"></i></a>
+   </div>
+    <div class="buttons">
+       <button onclick="window.location.href='tel:+919131552292';">Call</button>
+       <button onclick="window.location.href='https://t.me/Mohit_Namdeo';">Message</button>
+    </div>
+
+  </div>
+</body>
+</html>
